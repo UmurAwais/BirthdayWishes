@@ -1,13 +1,13 @@
 import React, { useState, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
-import YasirAzad from "./assets/Yasir Azad.webp";
+import Mazhar from "./assets/Mazhar.jpg";
 
 // PLACEHOLDER — replace this after you say: "Bro send full Base64 audio"
 const birthdayMusic = ""; 
 
 const BirthdayWishForYasir = ({
-  friendName = "Yasir Azad",
-  photoUrl = YasirAzad,
+  friendName = "Mazhar Hussain",
+  photoUrl = Mazhar,
 }) => {
   const [step, setStep] = useState(1);
   const [showEffects, setShowEffects] = useState(false);
